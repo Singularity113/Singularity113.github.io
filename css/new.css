@@ -1,7 +1,4 @@
-html,body{
-    height: auto;
-    
-}
+
 .container{
     position: relative;
 }
@@ -136,5 +133,84 @@ a{
     top: 30%;
     width: 35%;
     height: 25em;
-
+}
+@media screen and (max-width: 600px) {
+    #pg1,#pg2,#pg3{
+        position: absolute;
+        left: 35.62%;
+        width: 33.13%;
+        height: 22em;
+        top: 32%;
+    }
+    .rectangle1{
+        max-width:auto;
+        height:30em;
+        background: #683838;
+    }
+    .rectangle2{
+        width: auto;
+        height: 30em;
+        background: #523535;
+    }
+    .rectangle3 {
+        width: auto;
+        background: #3E2929;
+        height: 32em;
+    }
+    .rectangle4{
+        width: auto;
+        height: 30em;
+        background: #2D1E1E;
+    }
+    .ss_block{
+        left: 35%;
+        top: 13.93%;
+    }
+    .my_ss{
+        left: 35%;
+    }
+    .my_footer{
+        top: 2%;
+        width: 27em;
+    }
+    .map{
+        right: 25%;
+        top: 30%;
+        width: 50%;
+        height: 17em;
+    }
+    .hs_block{
+        left: 35%;
+        top: 43.93%;
+    }
+    .my_hs{
+        left: 35%;
+        top: 30%;
+    }
+    .groupe{
+        left: 35%;
+        top: 73.93%;
+    }
+    .me_name{
+        left: 32%;
+        top: 58%;
+    }
+    #my_pic{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 2.3%;
+        left: 25%;
+        width: 45%;
+    }
+    .next{
+        height: 8%;
+        left: 62.3%;
+        top: 62%;
+    }
+    .prev{
+        height: 8%;
+        left: 35.62%;
+        top: 62%;
+    }
 }
