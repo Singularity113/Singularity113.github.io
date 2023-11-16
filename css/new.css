@@ -134,7 +134,7 @@ a{
     width: 35%;
     height: 25em;
 }
-@media screen and (min-height: 2000px) {
+@media screen and (min-height: 600px) {
     #pg1,#pg2,#pg3{
         position: absolute;
         left: 35.62%;
