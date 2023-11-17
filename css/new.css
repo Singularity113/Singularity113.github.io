@@ -1,25 +1,24 @@
-
 .container{
     position: relative;
 }
 .rectangle1 {
     max-width:100%;
-    height: 50em;
+    min-height: 25%;
     background: #683838;
 }
 .rectangle2 {
     width: 100%;
-    height: 50em;
+    height: 40.06vw;
     background: #523535;
 }
 .rectangle3 {
     width: 100%;
-    height: 50em;
+    height: 40.06vw;
     background: #3E2929;
 }
 .rectangle4 {
     width: 100%;
-    height: 50em;
+    height: 40.06vw;
     background: #2D1E1E;
 }
 *{
@@ -98,8 +97,9 @@ a{
 #pg1,#pg2,#pg3{
     position: absolute;
 	left: 59.62%;
-    width: 32.13%;
-    height: 50em;
+    	width: 30.13%;
+    /*height: 40.06vw;*/
+	height:auto;
 }
 .next{
 	position: absolute;
@@ -109,7 +109,7 @@ a{
 	text-align: center;
 	font-size: 1.48vw;
 	border-radius: 100%;
-    left: 85.45%;
+    left: 83.45%;
     top: 45.81%;
     width: 6.296%;
     height: 14.408%;
@@ -132,15 +132,17 @@ a{
     right: 7%;
     top: 30%;
     width: 35%;
-    height: 25em;
+    height: 25.06vw;
 }
 @media screen and (max-width: 600px) {
+
     #pg1,#pg2,#pg3{
         position: absolute;
         left: 35.62%;
         width: 33.13%;
-        height: 22em;
+        /*height: 22em;*/
         top: 32%;
+	height:auto;
     }
     .rectangle1{
         max-width:auto;
